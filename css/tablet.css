@@ -1,0 +1,75 @@
+@media (max-width:745px) {
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 480px;
+        padding-top: 32px;
+    }
+
+    /* section2 */
+    .section2 {
+        padding: 48px 0 48px 32px;
+    }
+
+    /* catalog page */
+    /* ********** */
+    /* catalog_section1 */
+
+    .catalog_section1 {
+        padding: 48px 32px;
+    }
+
+    .none745 {
+        display: none;
+    }
+
+    /* contact page */
+    /* ********** */
+    /* contact_section */
+    .contact_section {
+        padding-inline: 32px;
+        height: 605px;
+    }
+
+    .contact_section_information {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:744px) {
+
+    /* footer  */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 40px;
+        padding: 32px 0;
+    }
+
+    .line1 {
+        margin-inline: auto;
+    }
+
+    .social_media {
+        justify-content: center;
+    }
+
+    /* catalog page */
+    /* ********** */
+    .filter h5,
+    .sort button span,
+    .pages_button span {
+        display: none;
+    }
+
+    .pages_button {
+        column-gap: 45px;
+    }
+}
